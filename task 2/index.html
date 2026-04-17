@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium fitness center offering state-of-the-art facilities, expert services, and flexible membership plans.">
+    <title>Ascend Fitness | Premium Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#home">ASCEND<span>FIT</span></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-btn">Home</a></li>
+                <li><a href="#facilities" class="nav-btn">Facilities</a></li>
+                <li><a href="#services" class="nav-btn">Services</a></li>
+                <li><a href="#memberships" class="nav-btn">Plans</a></li>
+                <li><a href="#join" class="btn-primary">Join Now</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Push Your Limits.<br>Redefine Your <span>Strength.</span></h1>
+                <p>Welcome to Ascend Fitness, where state-of-the-art equipment meets expert guidance. Start your journey today.</p>
+                <div class="hero-actions">
+                    <a href="#memberships" class="btn-primary">Explore Plans</a>
+                    <a href="#facilities" class="btn-secondary">Take a Tour</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section id="facilities" class="section">
+            <div class="section-header">
+                <h2>Our Premium <span>Facilities</span></h2>
+                <p>Equip yourself with the best tools to achieve your fitness goals.</p>
+            </div>
+            <div class="grid-container">
+                <div class="card glassmorphism">
+                    <div class="card-img">
+                        <img src="images/facility1.png" alt="Free Weights Area" />
+                    </div>
+                    <div class="card-content">
+                        <h3>Free Weights Zone</h3>
+                        <p>Fully stocked area featuring premium dumbbells, racks, and benches.</p>
+                    </div>
+                </div>
+                <!-- Simulating more cards for design layout -->
+                <div class="card glassmorphism">
+                    <div class="card-img" style="background-color: #222; display:flex; align-items:center; justify-content:center; height: 250px;">
+                        <h3 style="color: #666;">Cardio Deck</h3>
+                    </div>
+                    <div class="card-content">
+                        <h3>Advanced Cardio</h3>
+                        <p>Latest treadmills, stair climbers, and bikes with interactive screens.</p>
+                    </div>
+                </div>
+                <div class="card glassmorphism">
+                    <div class="card-img" style="background-color: #222; display:flex; align-items:center; justify-content:center; height: 250px;">
+                        <h3 style="color: #666;">Recovery Zone</h3>
+                    </div>
+                    <div class="card-content">
+                        <h3>Recovery Center</h3>
+                        <p>Saunas, cold plunges, and massage therapy to bounce back faster.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section gradient-bg">
+            <div class="section-header">
+                <h2>Elite <span>Services</span></h2>
+                <p>Expert programming and guidance tailored for your success.</p>
+            </div>
+            <div class="services-container">
+                <div class="service-image">
+                    <img src="images/service1.png" alt="Group Workout Class" />
+                </div>
+                <div class="service-details">
+                    <div class="service-item">
+                        <div class="service-icon">🏋️</div>
+                        <div>
+                            <h3>Personal Training</h3>
+                            <p>1-on-1 coaching with certified experts to refine your technique and accelerate results.</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">🧘</div>
+                        <div>
+                            <h3>Group Classes</h3>
+                            <p>High-energy spin, yoga, HIIT, and pilates sessions scheduled throughout the day.</p>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">🥗</div>
+                        <div>
+                            <h3>Nutrition Coaching</h3>
+                            <p>Custom meal plans and dietary consultations to fuel your workouts properly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Memberships Section -->
+        <section id="memberships" class="section">
+            <div class="section-header">
+                <h2>Membership <span>Plans</span></h2>
+                <p>Choose the level of commitment that fits your lifestyle.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price"><span>$</span>39<span>/mo</span></div>
+                    <ul class="features">
+                        <li>Global Gym Access</li>
+                        <li>Locker Room & Showers</li>
+                        <li>Free WiFi</li>
+                        <li class="disabled">Group Classes</li>
+                        <li class="disabled">Recovery Area</li>
+                    </ul>
+                    <a href="#join" class="btn-secondary">Select Plan</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="badge">Most Popular</div>
+                    <h3>Pro</h3>
+                    <div class="price"><span>$</span>69<span>/mo</span></div>
+                    <ul class="features">
+                        <li>Everything in Basic</li>
+                        <li>Unlimited Group Classes</li>
+                        <li>1 Guest Pass / Month</li>
+                        <li>Fitness Assessment</li>
+                        <li class="disabled">Recovery Area</li>
+                    </ul>
+                    <a href="#join" class="btn-primary">Select Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Elite</h3>
+                    <div class="price"><span>$</span>129<span>/mo</span></div>
+                    <ul class="features">
+                        <li>Everything in Pro</li>
+                        <li>Unlimited Recovery Area</li>
+                        <li>1 Personal Training / Month</li>
+                        <li>Unlimited Guest Passes</li>
+                        <li>Towel Service</li>
+                    </ul>
+                    <a href="#join" class="btn-secondary">Select Plan</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>ASCEND<span>FIT</span></h2>
+                <p>Redefining fitness through state-of-the-art facilities and expert guidance.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#memberships">Memberships</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>📍 123 Fitness Ave, NY 10001</p>
+                <p>📞 (555) 123-4567</p>
+                <p>✉️ info@ascendfit.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ascend Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Registration Modal -->
+    <div class="modal" id="registerModal">
+        <div class="modal-content glassmorphism">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h2>Join <span>Ascend Fitness</span></h2>
+            <p>Fill out the form below to register and start your journey.</p>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="plan">Select Plan</label>
+                    <select id="plan" required>
+                        <option value="" disabled selected>Choose a Membership Plan</option>
+                        <option value="basic">Basic - $39/mo</option>
+                        <option value="pro">Pro - $69/mo</option>
+                        <option value="elite">Elite - $129/mo</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary w-100">Complete Registration</button>
+            </form>
+            <div id="formSuccess" class="form-success" style="display: none;">
+                <h3>Welcome aboard! 🏋️</h3>
+                <p>Registration successful. We will contact you shortly.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
