@@ -5,6 +5,7 @@ A collection of web development tasks showcasing modern UI/UX design, interactiv
 ## 📂 Project Structure
 - **/task 1** - Neon Beats Web Music Player
 - **/task 2** - Ascend Fitness Premium Gym Landing Page
+- **/task 3** - Karuna Animal Rescue Charity Website
 
 ---
 
@@ -29,6 +30,17 @@ A single-page scrollable gym website designed with a dark, premium aesthetic and
 - **Interactive Registration Modal:** A fully designed overlay modal for new member sign-ups accessed via the website.
 - **Dynamic Scroll & Navigation:** Intercepted anchor tags for smooth scrolling, mobile drawer menu, and sticky nav functionality.
 - **Premium Aesthetics:** Vibrant accents, glassmorphism overlays, and hover micro-animations.
+
+---
+
+## 🐾 Task 3: Karuna Animal Rescue Charity Website
+
+A responsive, vibrant web application built for an animal charity showcasing their mission, active programs, and offering diverse ways to donate.
+
+### Features
+- **Vibrant Aesthetics:** Lively color scheme, high-quality detailed imagery, and glassmorphism elements matching the compassionate tone.
+- **Interactive Payment Modal:** Complete front-end implementation of a donation modal with tabbed content for UPI, Card, Netbanking, and Cheque options.
+- **Custom Scroll Animations:** Intersection Observer API utilized for smooth, lightweight scroll interactions.
 
 ---
 

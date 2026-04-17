@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karuna Animal Rescue | Bangalore</title>
+    <meta name="description" content="Bangalore animal charity organization dedicated to the rescue, rehabilitation, and rehoming of street animals.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">🐾</span> Karuna Rescue
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#mission">Our Mission</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><button class="btn-primary open-modal" id="navDonateBtn">Donate Now</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Give Them a Second Chance</h1>
+            <p class="fade-in delay-1">Join us in our mission to rescue, heal, and find loving homes for the street animals of Bangalore.</p>
+            <button class="btn-primary fade-in delay-2 open-modal">Make an Impact Today</button>
+        </div>
+        <div class="hero-image-wrapper fade-in delay-2">
+            <img src="images/hero.png" alt="Happy rescued dogs and cats playing" class="hero-img">
+        </div>
+    </header>
+
+    <!-- Mission Section -->
+    <section id="mission" class="mission">
+        <div class="container split-section">
+            <div class="split-text slide-up">
+                <h2>Our Mission</h2>
+                <p>At Karuna Rescue Bangalore, we believe every animal deserves love and care. We tirelessly work day and night to provide immediate medical attention, a safe sanctuary, and a joyful life to animals who have been abandoned or injured on the streets.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>5,000+</h3>
+                        <p>Animals Rescued</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>2,000+</h3>
+                        <p>Loving Adoptions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="split-image slide-up delay-1">
+                <img src="images/cow.png" alt="Gentle indian cow cared by volunteer">
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container text-center">
+            <h2 class="slide-up">Our Programs</h2>
+            <p class="section-subtitle slide-up">We take a holistic approach to animal welfare in our community.</p>
+            <div class="cards-grid">
+                <div class="card slide-up delay-1">
+                    <div class="card-icon">🚑</div>
+                    <h3>Street Rescue</h3>
+                    <p>24/7 ambulance services across Bangalore for injured or sick animals.</p>
+                </div>
+                <div class="card slide-up delay-2">
+                    <div class="card-icon">💉</div>
+                    <h3>Sterilization</h3>
+                    <p>Humane ABC (Animal Birth Control) programs to manage street populations.</p>
+                </div>
+                <div class="card slide-up delay-3">
+                    <img src="images/adoption.png" alt="Happy family at adoption center" class="card-img">
+                    <h3>Adoption Center</h3>
+                    <p>Connecting loving families with our rehabilitated shelter friends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <h3 class="logo-text">🐾 Karuna Rescue</h3>
+                <p>123 Bannerghatta Road, Bangalore 560076</p>
+            </div>
+            <div>
+                <h4>Follow Us</h4>
+                <div class="socials">
+                    <a href="#">FB</a> | <a href="#">IG</a> | <a href="#">X</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Karuna Animal Rescue. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Donation Modal -->
+    <div id="donationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h2>Make a Donation</h2>
+            <p>Your contribution directly saves lives.</p>
+            
+            <div class="payment-tabs">
+                <button class="tab-btn active" data-tab="upi">UPI</button>
+                <button class="tab-btn" data-tab="card">Debit/Credit</button>
+                <button class="tab-btn" data-tab="netbanking">Net Banking</button>
+                <button class="tab-btn" data-tab="cheque">Cheque</button>
+            </div>
+
+            <div class="tab-content active" id="upi">
+                <h3>Scan to Pay via UPI</h3>
+                <div class="qr-placeholder">
+                    <span>📱 QR Code</span>
+                </div>
+                <p>UPI ID: donate@karunarescue</p>
+            </div>
+
+            <div class="tab-content" id="card">
+                <h3>Card Details</h3>
+                <form class="payment-form">
+                    <input type="text" placeholder="Cardholder Name" required>
+                    <input type="text" placeholder="Card Number (0000 0000 0000 0000)" required>
+                    <div class="row">
+                        <input type="text" placeholder="MM/YY" required>
+                        <input type="text" placeholder="CVV" required>
+                    </div>
+                    <button class="btn-primary w-100">Pay Now</button>
+                </form>
+            </div>
+
+            <div class="tab-content" id="netbanking">
+                <h3>Select Your Bank</h3>
+                <select class="bank-select">
+                    <option>SBI</option>
+                    <option>HDFC Bank</option>
+                    <option>ICICI Bank</option>
+                    <option>Axis Bank</option>
+                </select>
+                <button class="btn-primary w-100 mt-1">Proceed to Portal</button>
+            </div>
+
+            <div class="tab-content" id="cheque">
+                <h3>Offline Payments</h3>
+                <p>Please make cheques payable to <strong>"Karuna Animal Rescue NGO"</strong>.</p>
+                <p>Mail to: 123 Bannerghatta Road, Bangalore 560076</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
