@@ -1,5 +1,7 @@
 # Project 2 
 
+**Developer:** [Vignesh Sahadevan](https://www.linkedin.com/in/vignesh-sahadevan-9941b7301/)
+
 A collection of web development tasks showcasing modern UI/UX design, interactive elements, and frontend logic.
 
 ## 📂 Project Structure
